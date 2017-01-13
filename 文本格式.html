@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- IE适配 -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- 手机端适配器 -->
+
+      <title>Bootstrap的HTML标准模板</title>
+      <!-- Bootstrap -->
+      <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+      <!--你自己的样式文件 -->
+      <!-- <link href="dist/css/your-style.css" rel="stylesheet"> -->
+      <!-- 以下两个插件用于在IE8以及以下版本浏览器支持HTML5元素和媒体查询，如果不需要用可以移除 -->
+      <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+</head>
+
+<body>
+      <h1>标题1</h1>
+      <h2>标题2</h2>
+      <h3>标题3</h3>
+      <h4>标题4</h4>
+
+      <hr>
+
+      <div class="h1">
+            标题1
+      </div>
+      <div class="h2">
+            标题2
+      </div>
+      <div class="h3">
+            标题3
+      </div>
+      <div class="h4">
+            标题4
+      </div>
+
+      <h1>Bootstrap标题一<small>我是副标题</small></h1>
+      <h2>Bootstrap标题二<small>我是副标题</small></h2>
+      <h3>Bootstrap标题三<small>我是副标题</small></h3>
+      <h4>Bootstrap标题四<small>我是副标题</small></h4>
+      <h5>Bootstrap标题五<small>我是副标题</small></h5>
+      <h6>Bootstrap标题六<small>我是副标题</small></h6>
+      <p>
+            djfaklsd
+      </p>
+      <p class="lead">
+            <i>f</i>adf<strong>dslfk</strong>
+      </p>
+
+      <div class="text-muted">.text-muted 效果</div>
+      <div class="text-primary">.text-primary效果</div>
+      <div class="text-success">.text-success效果</div>
+      <div class="text-info">.text-info效果</div>
+      <div class="text-warning">.text-warning效果</div>
+      <div class="text-danger">.text-danger效果</div>
+
+
+      <!-- 文字对齐方式 -->
+      <p class="text-left">我居左</p>
+      <p class="text-center">我居中</p>
+      <p class="text-right">我居右</p>
+
+
+
+
+      <div style="position:absolute;display:block;width:50%;left:27%">
+            <!-- 两端对齐 -->
+            <p class="text-justify">There is clearly a need for CSS to be taken seriously by graphic artists. The Zen Garden aims to excite, inspire, and encourage participation. To begin, view some of the existing designs in the list. Clicking on any one will load the style
+                  sheet into this very page. The code remains the same, the only thing that has changed is the external .css file. </p>
+            <!-- 两端对齐 -->
+      </div>
+
+
+      <!-- 列表 -->
+      <h5>普通列表</h5>
+      <ul>
+            <li>列表项目</li>
+            <li>列表项目</li>
+            <li>列表项目</li>
+            <li>列表项目</li>
+            <li>列表项目</li>
+      </ul>
+      <h5>有序列表</h5>
+      <ol>
+            <li>项目列表一</li>
+            <li>项目列表二</li>
+            <li>项目列表三</li>
+      </ol>
+      <h5>有序列表嵌套</h5>
+      <ol>
+            <li>有序列表</li>
+            <li>
+                  有序列表
+                  <ol>
+                        <li>有序列表(2)</li>
+                        <li>有序列表(2)</li>
+                  </ol>
+            </li>
+            <li>有序列表</li>
+      </ol>
+      <!--无序列表去点 -->
+      <ul>
+            <li>
+                  项目列表
+                  <ul>
+                        <li>带有项目符号</li>
+                        <li>带有项目符号</li>
+                  </ul>
+            </li>
+            <li>
+                  项目列表
+                  <ul class="list-unstyled">
+                        <li>不带项目符号</li>
+                        <li>不带项目符号</li>
+                  </ul>
+            </li>
+            <li>项目列表</li>
+      </ul>
+      <!--有序列表去序号-->
+      <ol>
+            <li>
+                  项目列表
+                  <ol>
+                        <li>带有项目编号</li>
+                        <li>带有项目编号</li>
+                  </ol>
+            </li>
+            <li>
+                  项目列表
+                  <ol class="list-unstyled">
+                        <li>不带项目编号</li>
+                        <li>不带项目编号</li>
+                  </ol>
+            </li>
+            <li>项目列表</li>
+      </ol>
+
+      <!-- 水平导航栏 -->
+      <ul class="list-inline">
+            <li>W3cplus</li>
+            <li>Blog</li>
+            <li>CSS3</li>
+            <li>jQuery</li>
+            <li>PHP</li>
+      </ul>
+
+      <dl class="dl-horizontal">
+            <dt>标题一:</dt>
+            <dd>描述内容</dd>
+            <dt>标题二:</dt>
+            <dd>描述内容</dd>
+      </dl>
+      <!-- 代码模块 -->
+      code风格：
+      <div>Bootstrap的代码风格有三种：<code>&lt;code&gt;</code>、<code>&lt;pre&gt;</code>和<code>&lt;kbd&gt;</code></div>
+      pre风格：
+      <div>
+            <pre>
+            &lt;ul&gt;
+            &lt;li&gt;...&lt;/li&gt;
+            &lt;li&gt;...&lt;/li&gt;
+            &lt;li&gt;...&lt;/li&gt;
+            &lt;/ul&gt;
+            </pre>
+      </div>
+      kbd风格：
+      <div>请输入<kbd>ctrl+c</kbd>来复制代码，然后使用<kbd>ctrl+v</kbd>来粘贴代码</div>
+
+
+      <!-- 滚动条 -->
+      高度超出340px，就会在Y轴出现滚动条
+      <pre class="pre-scrollable">
+            <ol>
+                <li>....</li>
+                <li>....</li>
+                <li>....</li>
+                <li>....</li>
+                <li>....</li>
+                <li>....</li>
+                <li>....</li>
+                <li>....</li>
+                <li>....</li>
+                <li>....</li>
+                <li>....</li>
+                <li>....</li>
+                <li>....</li>
+                <li>....</li>
+            </ol>
+      </pre>
+      <!-- 如果要使用Bootstrap的js插件，必须先调入jQuery -->
+      <script src="dist/js/jquery.min.js"></script>
+      <!-- 包括所有bootstrap的js插件或者可以根据需要使用的js插件调用　-->
+      <script src="dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
